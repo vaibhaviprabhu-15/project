@@ -3,7 +3,7 @@ import sys
 def main():
     if len(sys.argv) != 7:
         print("Usage: python hospital.py <name> <ward> <diagnosis> <s1> <s2> <s3>")
-        sys.exit(1)
+        sys.exit(0)
 
     name = sys.argv[1]
     ward = sys.argv[2]
